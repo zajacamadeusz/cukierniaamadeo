@@ -39,18 +39,6 @@
         </div>
       </div>
     </section>
-    <section class="ue-project">
-      <div class="row">
-        <div class="columns small-12">
-          <h2 class="base-header">Projekt Unijny</h2>
-        </div>
-        <div class="columns small-12 medium-offset-2 medium-8 large-offset-3 large-6">
-          <div class="ue-project__img">
-            <img src="/img/plansza-informacyjna-PFR-pion-srodkowa.jpeg" alt="Plansza informacyjna PFR">
-          </div>
-        </div>
-      </div>
-    </section>
     <footer class="footer">
       <div class="row">
         <div class="columns small-12 medium-5 large-5">
@@ -58,6 +46,7 @@
             <span class="footer__bold">Cukiernia Amadeo</span>
             <span>ul. Wolności 66</span>
             <span>41-500 Chorzów</span>
+            <span>tel: 501 091 881</span>
           </div>
         </div>
         <div class="columns small-12 medium-5 large-5">
