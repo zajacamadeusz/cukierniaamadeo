@@ -1,0 +1,9 @@
+# Pliki systemowe (macOS)
+.DS_Store
+public/.DS_Store
+
+# Foldery z zależnościami (zawsze powinny być instalowane przez `npm install` lub `yarn install`)
+node_modules/
+
+# Pliki lock (powinieneś używać tylko jednego: `yarn.lock` lub `package-lock.json`)
+package-lock.json

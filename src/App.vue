@@ -4,7 +4,7 @@
       <div class="row">
         <div class="columns small-12">
           <a href="/" class="header__logo">
-            <img src="/logo.png" alt="Logo cukierni">
+            <img src="/logo2.png" alt="Logo cukierni">
           </a>
         </div>
       </div>
@@ -64,6 +64,26 @@
         </div>
       </div>
     </footer>
+   <section class="ue-info">
+    <div class="ue-container">
+      <div class="ue-image">
+          <img src="/ue-img2.png" alt="">
+      </div>
+      <div class="ue-text">
+        <p>
+          <b>Cel projektu:</b> Uatrakcyjnienie zakresu dotychczas świadczonych usług poprzez wprowadzenie nowych wyrobów cukierniczych własnego wyrobu oraz menu śniadaniowego i usługi cateringowej. Powiększenie przestrzeni dostępnej dla klientów kawiarni poprzez dodatkowe miejsca siedzące w nowych altanach  i stworzenie dystrybucji lodów rzemieślniczych w altanie zewnętrznej.
+        </p>
+        <p>
+          <b>Powyższe cele zostaną osiągnięte poprzez</b> realizację inwestycji polegającej na zakupie nowych środków trwałych, montażu instalacji fotowoltaicznej, usług szkoleniowych i doradczych.
+        </p>
+      </div>
+      <div class="ue-values">
+        <p><b>Całkowita wartość projektu:</b> 449 591,32 zł</p>
+        <p><b>Całkowita wartość wydatków kwalifikowanych projektu:</b> 365 521,40 zł</p>
+        <p><b>Wartość udzielonego dofinansowania:</b> 292 417,12 zł</p>
+      </div>
+    </div>
+  </section>
     <div class="banner">
       <div class="row">
         <div class="columns small-12 medium-6 large-6">
@@ -279,5 +299,53 @@ export default {
       justify-content: flex-end;
     }
   }
+}
+
+.ue-info {
+  background: #f9f7f6;
+  font-size: 15px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ue-container {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ue-image {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .ue-image {
+    width: 300px;
+  }
+}
+
+.ue-text {
+  text-align: left;
+}
+
+.ue-values {
+  width: 100%;
+  text-align: left;
+}
+
+.ue-values p {
+  margin-bottom: 10px;
 }
 </style>
